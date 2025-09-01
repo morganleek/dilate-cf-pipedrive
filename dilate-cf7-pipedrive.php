@@ -58,7 +58,7 @@ function cf7_pipedrive_settings_page() {
     $api_token = $settings['api_token'] ?? '';
     ?>
     <div class="wrap">
-        <h1>Contact Form 7 to Pipedrive Settings</h1>
+        <h1>Forminator - Pipedrive Settings</h1>
         <form method="post" action="">
             <?php wp_nonce_field('cf7_pipedrive_save_settings'); ?>
             <table class="form-table">
